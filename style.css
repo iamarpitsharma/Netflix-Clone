@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+
+}
+
+.main {
+    background-image: url("images/bg.jpg");
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+
+}
+
+div.black {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+
+}
+
+.logo {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 2;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 3;
+}
+
+.text {
+    height: calc(100% - 62px);
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Martel Sans", sans-serif;
+    gap: 23px;
+    padding: 0px 30px;
+}
+
+.text> :nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.text> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.text> :nth-child(3)  {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: rgb(60, 60, 60);
+}
+
+.btn {
+    padding: 3px 8px;
+    background-color: white;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.btn_corner {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lang {
+    background-color: rgba(255, 255, 255, 0.051);
+    color: white;
+    width: 100px;
+    height: 28px;
+    padding: 2px 10px;
+    border-radius: 4px;
+    border: 0.1px solid rgba(0, 0, 0, 0.295);
+    border-color: aliceblue;
+    font-size: 15px;
+
+
+}
+
+.btn-red-sn {
+    background-color: red;
+    color: white;
+    padding: 6px 14px;
+    height: 28px;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+
+.btn-red {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding: 3px 24px;
+    font-size: 20px;
+    border: 2.5px solid red;
+    font-weight: 400;
+
+
+}
+
+.gmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.main input, .lastmail {
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    border-radius: 5px;
+    padding: 7px 110px 8px 14px;
+    font-size: 12px;
+    font-weight: 900;
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    height: 70vh;
+    margin: auto;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 38vw;
+    height: 51vh;
+    position: relative;
+    z-index: 3;
+    top: 10px;
+
+}
+
+.secimg video {
+    position: absolute;
+    top: 81px;
+    height: 231px;
+    width: 403px;
+    right: 72px;
+
+
+}
+
+.third video {
+    height: 190px;
+    right: 79px;
+    top: 54px;
+
+}
+
+.first>div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first div> :nth-child(1) {
+    font-weight: 900;
+    font-size: 41px;
+    row-gap: 10px;
+
+}
+
+.first div> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+
+/* .faq h2{
+    text-align: center;
+}
+ 
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.box:hover{
+    background-color: rgb(94, 93, 93);
+    transition: all 0.22s ease-in 0s;
+}
+.box{
+    display: flex;
+    cursor: pointer;
+    background-color: rgb(65, 65, 65) ;
+    padding: 24px;
+    max-width: 40vw;
+    margin: 34px auto;
+    justify-content: space-between;
+} */
+
+/* .faq h2{
+    text-align: center;         
+}
+mera wala with error
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.box{    
+    display: flex;
+    background-color: gray;
+    padding: 24px;
+    max-width: 40vw;
+    margin: 34px auto;
+    justify-content: space-between;       
+} */
+
+.faq h2{
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 41px;
+    font-weight: 900;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+    
+
+ }
+
+ .box:hover{
+    background-color: rgb(94, 93, 93);
+    transition: all 0.22s ease-in 0s;
+    cursor: pointer;
+}
+
+.box{
+    
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    padding: 20px 10px ;
+    width: 75vw;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+    
+} 
+
+.lastline{
+    height: 6px;
+    background-color: rgb(60, 60, 60);
+    margin: 64px 0px 36px;
+}
+
+#las {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+a:link{
+    color: rgb(179, 179, 179);
+}
+footer> span{
+    color: rgb(179, 179, 179) ;
+    text-decoration: solid ;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    left: 13vw;
+}
+
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    margin-left: 85px;
+
+}
+
+.footitem{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    
+}
+.footitem a{
+    margin :10px;
+}
+
+#ARPIT{
+    color:rgb(179, 179, 179);
+}
